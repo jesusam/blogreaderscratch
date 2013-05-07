@@ -18,6 +18,7 @@
 		C0CF4AEA1739590A00FE90BA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0CF4AE91739590A00FE90BA /* Default-568h@2x.png */; };
 		C0CF4AF117395CA800FE90BA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0CF4AF017395CA800FE90BA /* MainStoryboard.storyboard */; };
 		C0CF4AF417396B4600FE90BA /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CF4AF317396B4600FE90BA /* TableViewController.m */; };
+		C0CF4AFB1739844400FE90BA /* BlogPost.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CF4AFA1739844400FE90BA /* BlogPost.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		C0CF4AF017395CA800FE90BA /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		C0CF4AF217396B4600FE90BA /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		C0CF4AF317396B4600FE90BA /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		C0CF4AF91739844400FE90BA /* BlogPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogPost.h; sourceTree = "<group>"; };
+		C0CF4AFA1739844400FE90BA /* BlogPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogPost.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				C0CF4AF017395CA800FE90BA /* MainStoryboard.storyboard */,
 				C0CF4AF217396B4600FE90BA /* TableViewController.h */,
 				C0CF4AF317396B4600FE90BA /* TableViewController.m */,
+				C0CF4AF91739844400FE90BA /* BlogPost.h */,
+				C0CF4AFA1739844400FE90BA /* BlogPost.m */,
 			);
 			path = BlogReaderScratch;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 				C0CF4AE01739590A00FE90BA /* main.m in Sources */,
 				C0CF4AE41739590A00FE90BA /* AppDelegate.m in Sources */,
 				C0CF4AF417396B4600FE90BA /* TableViewController.m in Sources */,
+				C0CF4AFB1739844400FE90BA /* BlogPost.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
